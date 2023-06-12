@@ -13,6 +13,7 @@
 
 arr = [12, 4, 31, -7, 6, 33, 19]
 print (arr)
+
 def minimum(arr):
     i=0
     length = len(arr)
@@ -27,6 +28,7 @@ def minimum(arr):
         i += 1
     return arr
 print (' -> min', minimum(arr)[0])
+
 def maximum(arr):
     i=0
     length = len(arr)
